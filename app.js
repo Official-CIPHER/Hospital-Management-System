@@ -33,7 +33,7 @@ app.use(express.urlencoded({extended: true}));
 // 5.Middleware - fileUpload for uploading the file
 app.use(fileUpload({
   useTempFiles: true,
-  tempFileDir: "/temp/"
+  tempFileDir: "/tmp/"
 }))
 
 
